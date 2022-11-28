@@ -25,3 +25,14 @@ DATABASE_URL="postgres://myuser:mypassword@localhost:5432/median-db"
 ```
 
 Find out how PostgreSQL connection URL string should be format [here](https://www.prisma.io/docs/concepts/database-connectors/postgresql#connection-url).
+
+### Migrate the database
+With the Prisma schema defined, you will run migrations to create the actual tables in the database. To generate and execute your first migration, run the following command in the terminal:
+```
+npx prisma migrate dev --name "init"
+```
+
+### Execute seeding
+```
+npx prisma db seed
+```
