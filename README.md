@@ -1,4 +1,5 @@
-# NestJS project integrated it with Prisma, PostgreSQL and Swagger
+# NestJS project integrated with Prisma, PostgreSQL and Swagger
+
 Code based on the [official Prisma course](https://www.prisma.io/blog/nestjs-prisma-rest-api-7D056s1BmOL0).
 
 
